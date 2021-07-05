@@ -1,7 +1,12 @@
-- name: Patching the linux system using patching roles  
+colecciones :
+  - nombre : atahalinux_patching
+    versión : 1.1.1
+    fuente : https://galaxy.ansible.com
+   
   hosts: all  
   become: true  
   vars:  
     Patching_type: "KERNEL"  
   roles:  
     - patching
+
