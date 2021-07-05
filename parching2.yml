@@ -3,5 +3,5 @@
   become: true  
   vars:  
     Patching_type: "KERNEL"  
-   tasks:
-    - action: ping
+roles:
+   patching 
