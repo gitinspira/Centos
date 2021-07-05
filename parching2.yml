@@ -1,4 +1,4 @@
-    - hosts : servidores 
+    - hosts : todos
       remote_user : root 
       vars :
         - centos_base_enable_epel : verdaderos 
