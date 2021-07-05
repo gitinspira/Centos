@@ -1,7 +1,2 @@
-- name: Patching the linux system using patching roles  
-  hosts: all  
-  become: true  
-  vars:  
-    Patching_type: "KERNEL"  
-  roles:  
-    - patching
+ansible-playbook site.yml -e 'security_updates=true'
+ansible-playbook site.yml -e 'update_all=true'
