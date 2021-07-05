@@ -1,4 +1,4 @@
 colecciones :
-  - nombre : atahalinux_patching
+  - nombre : suzuki-shunsukedocker_ce_centos
     versión : 1.1.1
     fuente : https://galaxy.ansible.com
